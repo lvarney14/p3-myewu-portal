@@ -1,0 +1,114 @@
+/*==============================
+	Navigation
+==============================*/
+
+header h1 a {
+	background: #ccc url("../img/MyEWU_icon.png") no-repeat center center;
+	border-radius: 150px;
+	border: 4px solid #0CF;
+	display: block;
+	height: 150px;
+	left: 40px;
+	position: absolute;
+	text-indent: -999em;
+	width: 150px;
+	z-index: 2;
+	
+	/* CSS 3*/
+	transition: background-color 1s;
+}
+
+header {
+	position: relative;
+}
+
+header li {
+	float: left;
+	list-style: none;
+	margin: 0 5px;
+}
+
+/* Remove inherited margin on <ul> */
+header ul {
+	margin: 0;
+}
+
+/* Push links far right w/o floats */
+nav li:nth-child(1) {
+	margin-left: 100px;
+}
+
+nav {
+	background: black;	
+	height: 20px;
+	position: absolute;
+	left: 0;
+	top: 75px;
+	width: 960px;
+	
+	
+}
+
+nav a:link,
+nav a:visited {
+	color: #fff;
+	height: 15px;
+	display: block;
+	line-height: 20px;
+	text-align: center;	
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 128px;
+	
+	/*CSS 3*/
+	transition: margin-top .25s;
+}
+
+nav a:hover, 
+nav a:active {
+	margin-top: 5px;
+}
+
+
+
+/*==============================
+	Navigation: Page Indicators
+==============================*/
+.about li:nth-child(1), 
+.variants li:nth-child(2),
+.recipe li:nth-child(3){
+	background: rgba(255,255,255,.15);
+}
+
+/*==============================
+	Portal Img
+==============================*/
+#portal img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*==============================
+	Portal Icon
+==============================*/
+
+.row img{
+	width: 100px;
+	height: 80px;
+}
+
+/*==============================
+	Sites at Bottom of Welcome
+==============================*/
+
+#sites a img{
+	width: 60px;
+	height: 60px;
+	position: relative;
+	float: left;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
