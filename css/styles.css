@@ -4,7 +4,9 @@
 /*Navigation styling*/
 nav {
   width: 100%;
-  margin: 20px 0; }
+  margin: 20px 0;
+  display: block;
+  margin-left: 5px; }
 /* Make the list of links take up the whole width of the nav */
 nav ul {
   width: 100%; }
@@ -54,13 +56,13 @@ nav ul li {
 ==============================*/
 
 #sites a img{
-	width: 30px;
-	height: 30px;
+	width: 50px;
+	height: 70px;
 	position: relative;
 	float: left;
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
@@ -84,8 +86,23 @@ a img {
 table {
 
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 80px;
+}
+
+/*==============================
+ signout
+==============================*/
+section {
+  float: right;
+}
+
+/*==============================
+ contact bg
+==============================*/
+body.contact {
+   background-image:url('boat.jpg');
+  background-color:#cccccc;
 }
